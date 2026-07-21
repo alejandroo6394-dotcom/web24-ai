@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#0d0b18"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.8">
+      <stop stop-color="#7c5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity="0.06" stroke="#ffffff">
+    <path d="M0 158H1200M0 316H1200M0 474H1200M200 0V630M400 0V630M600 0V630M800 0V630M1000 0V630"/>
+  </g>
+  <g transform="translate(120,120)">
+    <rect x="1" y="1" width="56" height="56" rx="16" stroke="url(#brand)" stroke-width="2.5"/>
+    <path d="M14 22l5 17 5.5-17 4.8 17 5-17" stroke="url(#brand)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="44" cy="23" r="3" fill="#22d3ee"/>
+    <text x="76" y="40" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">WEB24 <tspan fill="#7c5cff">AI</tspan></text>
+  </g>
+  <text x="120" y="300" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="-2">Tu web creada por IA</text>
+  <text x="120" y="386" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="url(#brand)" letter-spacing="-2">en menos de 24 horas</text>
+  <text x="120" y="470" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="400" fill="#a5a3b8">Diseño premium, exclusivo y optimizado. Sin plantillas.</text>
+  <g transform="translate(120,520)">
+    <rect width="230" height="56" rx="28" fill="url(#brand)"/>
+    <text x="115" y="36" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#0a0a0f" text-anchor="middle">Crear mi web →</text>
+    <text x="270" y="36" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500" fill="#f5f5fa">★ 4,9/5 · +2.500 clientes</text>
+  </g>
+</svg>
